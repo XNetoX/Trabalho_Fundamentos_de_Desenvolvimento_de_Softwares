@@ -1,0 +1,106 @@
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #ff79c6;
+}
+
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.5;
+    color: #f1fa8c;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: block;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #ff79c6;
+}
+
+
+.hobby-img {
+    border-radius: 15px;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #6272a4;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td img {
+    border-radius: 10px;
+}
+
+
+a {
+    color: #f1fa8c;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #ff79c6;
+}
+
+
+button {
+    background-color: #8be9fd;
+    color: #282a36;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #50fa7b;
+}
+
+
+#message {
+    color: #ff79c6;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
